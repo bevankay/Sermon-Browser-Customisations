@@ -1,0 +1,18 @@
+<div class="sermon-browser">
+	[filters_form]
+   	
+	<h1 class="sb-clear">Sermons</h1>
+<p>Click sermon name to listen to or download audio</p>
+   	<div class="floatright">[next_page]</div>
+   	<div class="floatleft">[previous_page]</div>
+	
+	[sermons_loop]
+	<div id="sermonpage">
+	<h4 style="margin-bottom:0px;">[sermon_title] by [preacher_link]</h4>
+		<em>[date] // (Part of the [series_link] series)</em>
+			<span class="embed">[embed_loop][embed][/embed_loop]</span>
+	</div>
+   	[/sermons_loop]
+	<div class="floatright">[next_page]</div>
+   	<div class="floatleft">[previous_page]</div>
+</div>
